@@ -1,0 +1,124 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.main-page {
+    height: 14500px;
+}
+
+#body1,
+#body2,
+#body3,
+#body4,
+#body5,
+#body6,
+#body7 {
+    overflow: hidden;
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+#text1 {
+    visibility: hidden;
+    position: absolute;
+    left: 550px;
+    top: 2500px;
+    color: white;
+}
+
+#text2 {
+    visibility: hidden;
+    position: absolute;
+    left: 550px;
+    top: 14000px;
+    color: white;
+}
+
+.steveHadADream {
+    position: absolute;
+    top: -20px;
+    left: 15px;
+}
+
+iframe {
+    display: block;
+    width: 900px;
+    height: 600px;
+}
+
+#canvas1Frame,
+#canvas2Frame,
+#canvas3Frame,
+#canvas4Frame,
+#canvas5Frame,
+#canvas6Frame,
+#canvas7Frame {
+    display: none;
+    width: 900px;
+    height: 600px;
+
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#p5-canvas0 {
+    display: block;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* style of the home page */
+a:hover {
+    color: white;
+    /* text-decoration: underline; */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    position: fixed;
+    left: 45%;
+    top: 65%;
+    /* transform: translate(-50%, -50%); */
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
